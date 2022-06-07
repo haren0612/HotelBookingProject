@@ -4,12 +4,7 @@
   <body>
     <div>
       <div>
-        <img
-          src="assests/images/logo.png"
-          alt="logo"
-          width="160"
-          height="130"
-        />
+        <a href="index.html"> <img src="assests/images/logo.png" alt="logo" width="160" height="130" /></a>
         <a href="login.html" target="_blank">Login</a>
       </div>
       <div>
@@ -18,8 +13,21 @@
             ><img
               src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
               alt=""
-            />
-            <div><a href="payment.html">Book Now</a></div>
+              /> </a>
+              <div><form action="payment.html" method="get">
+                <label for="adult">Adults:</label>
+                <input type="number" name="adult" id="adult" min="1" required><br>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required><br>
+                <label for="from">From Date:</label>
+                <input type="date" name="fromdate" id="fromdate" required><br>
+                <label for="todate">To Date:</label>
+                <input type="date" name="todate" id="todate" required><br>
+                <label for="total">Total:</label>
+                <input type="text" name="total" id="total" readonly ><br>
+                <input type="submit" value="Book Now">
+  
+              </form></div>
             <div><h2> Radisson Blu Hotel</h2></div>
             <div>RATING</div>
             <div>5 Star</div>
@@ -35,7 +43,7 @@
             </div>
 			<div>DESCRIPTION</div>
 			<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi inventore, voluptatibus dolorem, facilis cumque nobis quod perspiciatis quisquam amet vitae earum iste velit dignissimos molestiae. Corporis rem dolorem ipsa sit.</div>
-          </a>
+          
         </div>
       </div>
       <div>
