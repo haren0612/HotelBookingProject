@@ -2,12 +2,10 @@ article {
     height: 800px;
     display: flex;
     flex-direction: column;
-
 }
 
 article .anchor {
     text-align: center;
-
 }
 
 article .anchor a {
@@ -43,7 +41,6 @@ article .search {
 }
 
 article .cards {
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -51,33 +48,26 @@ article .cards {
     /* margin-left: 15%;
     margin-right: 15%; */
     height: 250px;
-
-
 }
 
 article .cards .card {
     position: relative;
-     padding: 4% 4% 4% 4%; 
+    padding: 4% 4% 4% 4%;
     display: flex;
     justify-content: center;
     align-items: center;
     /* height: 150px; */
     width: 150px;
- 
 }
 
 article .cards .card img {
     border-radius: 25px;
     /* width: 150px;
     height: 150px; */
-
-
 }
 
 article .cards .card .image {
     box-shadow: 10px 10px 10px grey;
-
-
 }
 
 .middle {
@@ -103,7 +93,6 @@ article .cards .card:hover .image {
 }
 
 @media screen and (min-device-width: 576px) and (max-device-width: 768px) {
-
     /* STYLES HERE */
     article {
         height: 1000px;
@@ -111,21 +100,17 @@ article .cards .card:hover .image {
         flex-direction: column;
     }
     article .cards {
-
         display: grid;
         grid-template-columns: auto auto;
         justify-content: space-evenly;
         align-content: space-evenly;
-    
         align-items: center;
-        margin-top: 20px; 
+        margin-top: 20px;
         /* margin-left: 15%; */
         /* margin-right: 15%; */
         height: 450px;
         /* width: 600px; */
-
     }
-
     article .cards .card {
         position: relative;
         display: flex;
@@ -134,6 +119,7 @@ article .cards .card:hover .image {
         width: 150px;
     }
 }
+
 @media screen and (max-device-width: 576px) {
     article {
         height: 1280px;
@@ -150,22 +136,18 @@ article .cards .card:hover .image {
         outline: none;
     }
     article .cards {
-
         display: grid;
         /* grid-template-columns: auto; */
         justify-content: space-evenly;
         align-content: space-evenly;
-    
         align-items: center;
-        margin-top: 140px; 
+        margin-top: 140px;
         margin-bottom: 140px;
         /* margin-left: 15%; */
         /* margin-right: 15%; */
         height: 450px;
         /* width: 600px; */
-
     }
-
     article .cards .card {
         position: relative;
         display: flex;
