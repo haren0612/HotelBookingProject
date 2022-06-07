@@ -121,6 +121,14 @@ article .cards .card:hover .image {
 }
 
 @media screen and (max-device-width: 576px) {
+    article .cards .card {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        margin-bottom: 20px;
+    }
     article {
         height: 1280px;
         display: flex;
@@ -147,13 +155,5 @@ article .cards .card:hover .image {
         /* margin-right: 15%; */
         height: 450px;
         /* width: 600px; */
-    }
-    article .cards .card {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 150px;
-        margin-bottom: 20px;
     }
 }

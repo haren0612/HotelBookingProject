@@ -7,16 +7,16 @@ body {
 }
 
 header nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header nav {
     background-color: rosybrown;
     display: flex;
     align-items: center;
     z-index: 2;
-}
-
-header nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 header .anchor {
@@ -66,6 +66,11 @@ footer .logo {
     margin-right: 2%;
 }
 
+footer img {
+    height: 20px;
+    width: 22px;
+}
+
 @media screen and (max-device-width: 576px) {
     footer {
         background-color: rosybrown;
@@ -87,9 +92,4 @@ footer .logo {
         font-size: 10px;
         top: 5px;
     }
-}
-
-footer img {
-    height: 20px;
-    width: 22px;
 }

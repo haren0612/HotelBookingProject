@@ -56,10 +56,6 @@ article .content-sec .desc {
     margin-right: 15%;
 }
 
-article .content-sec .tariff {
-    margin-right: 15%;
-}
-
 @media screen and (min-device-width: 576px) and (max-device-width: 768px) {
     article {
         margin-top: 60px;
@@ -79,4 +75,8 @@ article .content-sec .tariff {
     article .content-sec {
         width: 590px;
     }
+}
+
+article .content-sec .tariff {
+    margin-right: 15%;
 }

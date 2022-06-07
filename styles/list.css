@@ -64,10 +64,6 @@ article ul li a {
 
 /* Rating */
 
-.checked {
-    color: orange;
-}
-
 @media screen and (min-device-width: 576px) and (max-device-width: 768px) {
     #list-view .hotel {
         margin: 2%;
@@ -108,4 +104,8 @@ article ul li a {
         width: 450px;
         height: 400px;
     }
+}
+
+.checked {
+    color: orange;
 }
