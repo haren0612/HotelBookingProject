@@ -1,11 +1,12 @@
 article {
-    height: 800px;
+    height: 1090px;
     display: flex;
     flex-direction: column;
 }
 
 article .anchor {
     text-align: center;
+    margin-top: 20px;
 }
 
 article .anchor a {
@@ -47,14 +48,13 @@ article .cards {
     margin-top: 20px;
     /* margin-left: 15%;
     margin-right: 15%; */
-    height: 250px;
+    
 }
 
 article .cards .card {
     position: relative;
     padding: 4% 4% 4% 4%;
     display: flex;
-    justify-content: center;
     align-items: center;
     /* height: 150px; */
     width: 150px;
@@ -62,6 +62,7 @@ article .cards .card {
 
 article .cards .card img {
     border-radius: 25px;
+    
     /* width: 150px;
     height: 150px; */
 }
@@ -84,7 +85,7 @@ article .cards .card .image {
 }
 
 article .cards .card:hover .middle {
-    opacity: 1;
+   opacity: 1;
 }
 
 article .cards .card:hover .image {
